@@ -63,6 +63,14 @@ https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93e
 * Como sugestão de melhora do modelo, as variáveis DsTemMetro e Casa em condomínio, são maiores 0.05
 * Portanto poderiam ser retiradas do modelo, pois não ajudam a explica a variável resposta.
 
+#### 11. Comparação de Preço Previsto vs Preço Real
+
+![image](https://github.com/matheus908/RegressaoLinearMultipla/assets/60456455/3a8b8a7a-7404-457e-bc77-566492e751bd)
+
+* Como mostra o gráfico nos preços mais baixos, a tendencia é o modelo conseguir se aproximar do real
+* Nos maiores preços, a diferença do preço previsto para o real, tende a aumentar
+
+
 
 
 
