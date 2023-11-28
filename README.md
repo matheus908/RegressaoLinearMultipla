@@ -40,6 +40,33 @@ https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93e
 * Variáveis dummies, são variáveis categóricas em que cada elemento dessa variável categorica é transformada em uma coluna de variável numérica
 * Só assim é possível usar essas variáveis em um modelo de regressão liner múltipla
 
+#### 8. Separando bases de treino/teste e gerando o modelo
+
+![image](https://github.com/matheus908/RegressaoLinearMultipla/assets/60456455/3feb5eda-eb0e-4ae9-8a10-7d36aba419fd)
+
+#### 9. Gerando resultados do modelo
+
+![image](https://github.com/matheus908/RegressaoLinearMultipla/assets/60456455/3c022b33-5039-4039-86cd-25cec8e0ca8e)
+
+* o Coeficiente de determinação R2 = mede o grau de explicação das variáveis explicativas sobre a variável resposta(Preço do Aluguel)
+* Grau de explicação nesse caso é 77,8% de grau de explicação.
+
+#### 10. Relatório de resultados do modelo
+
+![image](https://github.com/matheus908/RegressaoLinearMultipla/assets/60456455/1925301d-12a8-4431-bffe-8cc779fba95c)
+
+![image](https://github.com/matheus908/RegressaoLinearMultipla/assets/60456455/c1e3a3c9-6bf9-4ce7-b8aa-0e4e518f3663)
+
+* Como mostra o relatório o R2 é 0.778
+* Também é importante citar o P>|t|, também conhecido como p-valor
+* Se o p-valor for menor que 0.05 ou 5%, significa que aquela variável explicativa, é siginificativa para determinar a variável resposta
+* Como sugestão de melhora do modelo, as variáveis DsTemMetro e Casa em condomínio, são maiores 0.05
+* Portanto poderiam ser retiradas do modelo, pois não ajudam a explica a variável resposta.
+
+
+
+
+
 
 
 
