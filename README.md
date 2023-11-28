@@ -60,8 +60,8 @@ https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93e
 * Como mostra o relatório o R2 é 0.778
 * Também é importante citar o P>|t|, também conhecido como p-valor
 * Se o p-valor for menor que 0.05 ou 5%, significa que aquela variável explicativa, é siginificativa para determinar a variável resposta
-* Como sugestão de melhora do modelo, as variáveis DsTemMetro e Casa em condomínio, são maiores 0.05
-* Portanto poderiam ser retiradas do modelo, pois não ajudam a explica a variável resposta.
+* Como sugestão de melhoria do modelo, as variáveis DsTemMetro e Casa em condomínio, são maiores 0.05
+* Portanto poderiam ser retiradas do modelo, pois não ajudam a explicar a variável resposta.
 
 #### 11. Comparação de Preço Previsto vs Preço Real
 
